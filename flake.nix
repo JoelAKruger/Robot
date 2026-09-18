@@ -20,6 +20,7 @@
               underlay = true;
               paths = [
                 ros-core
+                rmw-cyclonedds-cpp
                 joy
                 teleop-twist-joy
                 # ... other ROS packages

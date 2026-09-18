@@ -1,0 +1,9 @@
+# https://github.com/ros2/teleop_twist_joy/blob/rolling/README.md#parameters
+# Keymap described in https://github.com/ros-drivers/joystick_drivers/blob/ros2/joy/README.md
+teleop_twist_joy_node:
+  ros__parameters:
+    require_enable_button: false
+    axis_linear.x: 1 # LEFTY
+    scale_linear.x: 1.0
+    axis_angular.yaw: 0 # LEFTX
+    scale_angular.yaw: 1.0
